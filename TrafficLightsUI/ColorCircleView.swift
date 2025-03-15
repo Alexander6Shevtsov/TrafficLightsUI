@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct ColorCircleView: View {
+    let color: Color
+    let opacity: Double
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Circle()
+            .frame(width: 125) // размер
+            .foregroundColor(color) // передаем цвет
+            .opacity(opacity) // передаем прозрачность
+            .overlay(Circle().stroke(Color.white, lineWidth: 1)) // ореол
     }
 }
 
 #Preview {
-    ColorCircleView()
+    ColorCircleView(color: .red, opacity: 1)
 }

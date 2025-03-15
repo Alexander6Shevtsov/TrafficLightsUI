@@ -11,6 +11,8 @@
 		42E79FB02D8449B8002E0E66 /* TrafficLightsUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79FAD2D8449B8002E0E66 /* TrafficLightsUIApp.swift */; };
 		42E79FB12D8449B8002E0E66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E79FA92D8449B8002E0E66 /* Preview Assets.xcassets */; };
 		42E79FB22D8449B8002E0E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E79FAB2D8449B8002E0E66 /* Assets.xcassets */; };
+		42E79FB42D845849002E0E66 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79FB32D845849002E0E66 /* ColorCircleView.swift */; };
+		42E79FB62D845D50002E0E66 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E79FB52D845D50002E0E66 /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		42E79FAB2D8449B8002E0E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E79FAC2D8449B8002E0E66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42E79FAD2D8449B8002E0E66 /* TrafficLightsUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsUIApp.swift; sourceTree = "<group>"; };
+		42E79FB32D845849002E0E66 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		42E79FB52D845D50002E0E66 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				42E79FAC2D8449B8002E0E66 /* ContentView.swift */,
+				42E79FB32D845849002E0E66 /* ColorCircleView.swift */,
+				42E79FB52D845D50002E0E66 /* StartButtonView.swift */,
 				42E79FAD2D8449B8002E0E66 /* TrafficLightsUIApp.swift */,
 				42E79FAB2D8449B8002E0E66 /* Assets.xcassets */,
 				42E79FAA2D8449B8002E0E66 /* Preview Content */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E79FB42D845849002E0E66 /* ColorCircleView.swift in Sources */,
+				42E79FB62D845D50002E0E66 /* StartButtonView.swift in Sources */,
 				42E79FAF2D8449B8002E0E66 /* ContentView.swift in Sources */,
 				42E79FB02D8449B8002E0E66 /* TrafficLightsUIApp.swift in Sources */,
 			);
@@ -283,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
